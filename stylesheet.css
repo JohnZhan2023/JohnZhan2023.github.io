@@ -102,6 +102,42 @@ h2 {
   margin: 12px 0 9px 0;
 }
 
+.experience-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0 12px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.experience-logo-cell {
+  padding: 8px 16px;
+  width: 20%;
+  height: 76px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.experience-logo {
+  max-width: 150px;
+  max-height: 52px;
+  width: auto;
+  height: auto;
+}
+
+.experience-logo-large {
+  max-width: 300px;
+  max-height: 104px;
+}
+
+.experience-detail {
+  padding: 8px;
+  width: 80%;
+  vertical-align: middle;
+  line-height: 1.45;
+}
+
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
