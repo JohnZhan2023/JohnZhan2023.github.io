@@ -107,6 +107,7 @@ h2 {
   border: 0;
   border-spacing: 0 12px;
   border-collapse: separate;
+  table-layout: fixed;
   margin-right: auto;
   margin-left: auto;
 }
@@ -114,7 +115,7 @@ h2 {
 .experience-logo-cell {
   padding: 8px 16px;
   width: 20%;
-  height: 76px;
+  height: 90px;
   vertical-align: middle;
   text-align: center;
 }
@@ -127,8 +128,17 @@ h2 {
 }
 
 .experience-logo-large {
-  max-width: 300px;
-  max-height: 104px;
+  max-width: 150px;
+  max-height: 80px;
+}
+
+.profile-photo {
+  width: 180px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
 }
 
 .experience-detail {
