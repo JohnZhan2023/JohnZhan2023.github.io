@@ -96,6 +96,12 @@ h2 {
   font-size: 22px;
 }
 
+.section-divider {
+  border-top: 1px solid #8f8f8f;
+  height: 0;
+  margin: 12px 0 9px 0;
+}
+
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
